@@ -87,9 +87,14 @@ a:hover{ text-decoration: none; }
 }
 .socials a:hover{ color: var(--ink); }
 
-.socials img{
-  width: 18px;
-  height: 18px;
+.socials i{
+  font-size: 18px;
+  line-height: 1;
+  display: inline-block;
+}
+
+.socials .fa-discord{
+  color: #5865F2;
 }
 
 .topnav{
